@@ -15,8 +15,6 @@ locals {
 }
 
 locals {
-    aws_vpn_interfaces_ip_address_0 = "35.242.9.145"
-    aws_vpn_interfaces_ip_address_1 = "5.220.3.185"
     aws_vpc = "vpc-0b330e3bf28df5bdf"
     aws_route_tables_ids = ["rtb-04617d504472023cd"]
     aws_region = "eu-east-1"
