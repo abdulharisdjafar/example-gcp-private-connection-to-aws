@@ -8,7 +8,6 @@ data "terraform_remote_state" "ha_vpn" {
 
 
 locals {
-  gcp_network = ""
   gcp_region = "us-east1"
   gcp_asn = 65500
   gcp_cidr = "10.128.0.0/20"
@@ -21,7 +20,6 @@ locals {
     aws_vpc = "vpc-0b330e3bf28df5bdf"
     aws_route_tables_ids = ["rtb-04617d504472023cd"]
     aws_region = "eu-east-1"
-    aws_sg = ""
 }
 
 variable "ROOT_PATH" {
