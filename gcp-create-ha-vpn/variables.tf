@@ -6,7 +6,7 @@ locals {
 }
 
 locals {
-    aws_route_tables_ids = ["rtb-04617d504472023cd"]
+    aws_route_tables_ids = ["rtb-xxxx"]
 }
 
 variable "ROOT_PATH" {

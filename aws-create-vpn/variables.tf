@@ -15,8 +15,8 @@ locals {
 }
 
 locals {
-    aws_vpc = "vpc-0b330e3bf28df5bdf"
-    aws_route_tables_ids = ["rtb-04617d504472023cd"]
+    aws_vpc = "vpc-xxxxxxx"
+    aws_route_tables_ids = ["rtb-xxx"]
     aws_region = "eu-east-1"
 }
 
