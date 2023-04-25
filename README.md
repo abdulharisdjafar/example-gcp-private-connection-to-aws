@@ -8,4 +8,4 @@
 4. run ```apply.sh``` for create all the instances
 
 ## Explanation
-When running apply.sh script, it will create the ha-vpn first in gcp, then create aws vpn. last the script will peering both gcp and aws vpn.
+When running ```apply.sh``` script, it will create the ha-vpn first in gcp, then create aws vpn. last the script will peering both gcp and aws vpn.
